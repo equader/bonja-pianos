@@ -1,0 +1,18 @@
+nav {
+  padding: 16px 112px;
+  display: flex;
+  align-items: center;
+}
+
+.nav-links{
+  margin-left: auto;
+  display: flex;
+  width: 300px;
+  justify-content: space-between;
+}
+
+.nav-links a {
+  font-size: 14px;
+  font-weight: 600;
+  color: gray;
+}
