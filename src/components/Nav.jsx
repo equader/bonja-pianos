@@ -1,6 +1,6 @@
 import React from 'react';
 import Menu from './Menu'
-import logo from './logo.svg';
+import logo from './logos/logo.svg';
 import './css/nav.css';
 
 

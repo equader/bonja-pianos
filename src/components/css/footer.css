@@ -10,6 +10,23 @@
     align-items: center;
 }
 
+.social-icons{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.icon-size {
+    width: 20px;
+    height: 20px;
+    padding: 12px;
+}
+
 .footer p {
     text-align: center;
+    font-size: 12px;
+    font-weight: 600;
+    color: gray;
+
 }
+
