@@ -1,0 +1,52 @@
+.HeroContainer {
+    padding: 80px 112px;
+    gap: 138px;
+    display: flex;
+    justify-content:center
+    
+}
+
+.HeroBlurb {
+    display: flex;
+    gap: 48px;
+    align-items: flex-start;
+    flex-direction: column;
+    position: relative;
+    width:488px
+}
+
+.HeroHeader {
+    align-items: flex-start;
+    align-self: stretch;
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 16px;
+    position: relative;
+    width: 100%;
+}
+
+.HeroHeader h1 {
+    align-items: stretch;
+    font-size: 60px;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 84px;
+    margin-top: -1px;
+    position: relative;
+}
+
+.HeroHeader p {
+    align-self: stretch;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    line-height: normal;
+    position: relative;
+}
+
+.manPiano {
+    width: 590px; 
+    height: 425px; 
+
+}
