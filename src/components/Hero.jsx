@@ -8,7 +8,7 @@ function Hero(){
         <div className="HeroContainer">
             <div className="HeroBlurb">
                 <div className="HeroHeader">
-                    <h1>In tune with excellence</h1>
+                    <h1>Piano servicing you can trust</h1>
                     <p>Bonja Pianos is proud to have continue our five years of service to individuals and leading music institutions in Sydney and Canberra. <br></br><br></br> We're dedicated to carefully maintaining and reviving every piano entrusted to us.</p>
                 </div>
                 <Button text="Request a quote" onClick={() => console.log('Button clicked')} />
