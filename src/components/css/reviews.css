@@ -1,0 +1,58 @@
+.review-panel{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    padding: 80px 112px;
+}
+
+.review-panel h1 {
+    text-align: center;
+
+}
+
+.review-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+}
+
+.review-row button  {
+    background-color: #F3F4F6;
+    border: none;
+    cursor: pointer;
+    height: 48px;  
+    width: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.card {
+    padding: 32px;
+    gap: 32px;
+    height: 240px;
+    width: 384px;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.5s ease;
+    background-color: #F3F4F6;
+    border-radius: 6px;
+}
+
+.card img{
+    margin-left: auto;
+  margin-right: auto;
+    width: 136px;
+    height: 24px;
+    
+}
+
+.card p {
+    justify-content: center;
+    text-align: center;
+}
+
+
+

@@ -1,5 +1,43 @@
 .HeroContainer {
     padding: 80px 112px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 128px;
+}
+
+.HeroBlurb {
+    max-width: 488px;
+    width: 100%; 
+    display: flex;
+    gap: 48px;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.HeroHeader h1 {
+    font-size: 60px;
+}
+
+.manPiano {
+    max-width: 100%; 
+    height: min-content;
+    border-radius: 6px;
+}
+
+
+@media (max-width: 768px) {
+    .HeroContainer {
+        padding: 40px 5%; 
+    }
+
+    .HeroBlurb, .manPiano {
+        width: 100%; 
+    }
+}
+/* 
+.HeroContainer {
+    padding: 80px 112px;
     gap: 138px;
     display: flex;
     justify-content:center
@@ -51,4 +89,4 @@
     width: 590px; 
     height: 425px; 
 
-}
+} */

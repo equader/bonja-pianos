@@ -9,7 +9,7 @@ function Hero(){
             <div className="HeroBlurb">
                 <div className="HeroHeader">
                     <h1>Piano servicing you can trust</h1>
-                    <p>Bonja Pianos is proud to have continue our five years of service to individuals and leading music institutions in Sydney and Canberra. <br></br><br></br> We're dedicated to carefully maintaining and reviving every piano entrusted to us.</p>
+                    <p>At Bonja Pianos, we're thrilled to celebrate five wonderful years of serving both individuals and prestigious music institutions across Sydney and Canberra. <br></br><br></br> Our passion lies in meticulously caring for and rejuvenating each piano that comes our way, ensuring every instrument sings with its fullest potential. It's a journey we cherish deeply, and we're excited to continue sharing our love for pianos with you.</p>
                 </div>
                 <Button text="Request a quote" onClick={() => console.log('Button clicked')} />
             </div>

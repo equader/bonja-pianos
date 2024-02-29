@@ -1,5 +1,5 @@
 import React from "react";
-import navLinks from './navLinks';
+import navLinks from './NavLinks';
 import './css/nav.css';
 
 function Menu(){

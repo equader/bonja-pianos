@@ -1,0 +1,24 @@
+.clientsPanel{
+    padding: 80px 112px;
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center
+}
+
+.logos {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 50px; 
+    flex-wrap: wrap; 
+  }
+  
+.company-logo {
+    height: 61px;
+    width: 175px;
+  }
+
+.clientsPanel p {
+    text-align: center;
+}
