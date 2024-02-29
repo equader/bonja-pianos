@@ -2,6 +2,7 @@ nav {
   padding: 16px 112px;
   display: flex;
   align-items: center;
+  background-color: black;
 }
 
 .nav-links{
@@ -14,5 +15,10 @@ nav {
 .nav-links a {
   font-size: 14px;
   font-weight: 600;
-  color: gray;
+  color: white;
+}
+
+.logo {
+  height: 64px;
+  width: 64px;
 }

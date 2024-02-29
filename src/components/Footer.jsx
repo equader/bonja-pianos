@@ -20,7 +20,7 @@ function Footer() {
                     ))}
                 </div>
             </div>
-            <p>© 2024 Bonja Pianos. All Rights Reserved. | ABN 65 831 469 318</p>
+            <p> © 2024 Bonja Pianos. All Rights Reserved. | ABN 65 831 469 318</p>
         </div>
     );
   }

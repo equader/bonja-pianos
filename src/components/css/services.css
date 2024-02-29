@@ -1,0 +1,58 @@
+.servicesPanel {
+  padding: 80px 112px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.services-row {
+  display: flex;
+  gap: 32px;
+}
+
+.service-card {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  flex: 1;
+  padding: 20px;
+  color: white;
+  position: relative;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Align vertically */
+  align-items: center; /* Align horizontally */
+  text-align: center; /* Ensure the text is centered as well */
+}
+
+.service-card-content {
+  position: relative;
+  z-index: 1;
+}
+
+.service-card::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+
+
+
+@media (max-width: 768px) {
+  .services-row {
+      flex-direction: column;
+  }
+  
+  .service-card {
+    aspect-ratio:  5/4;
+  }
+
+}
+
+
