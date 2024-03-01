@@ -5,6 +5,7 @@ import Hero from "./Hero"
 import Clients from "./Clients";
 import ReviewPanel from "./ReviewPanel";
 import Services from "./Services";
+import ContactForm from "./ContactForm";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
     <Hero/>
     <Clients/>
     <Services/>
-    <ReviewPanel/>
+{/*     <ReviewPanel/> */}
+    <ContactForm/>
     <Footer/>
     </div>
 

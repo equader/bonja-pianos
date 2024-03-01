@@ -1,24 +1,69 @@
 nav {
-  padding: 16px 112px;
+  padding: 1rem 7vw; /* Combine fixed and viewport-relative units */
   display: flex;
   align-items: center;
   background-color: black;
 }
 
-.nav-links{
+.nav-links {
   margin-left: auto;
   display: flex;
-  width: 300px;
+  width: 50%; /* Make width relative */
   justify-content: space-between;
+  flex-wrap: wrap; /* Allow links to wrap on smaller screens */
 }
 
 .nav-links a {
-  font-size: 14px;
+  font-size: 0.875rem; /* Start with a slightly smaller base font size */
   font-weight: 600;
   color: white;
 }
 
 .logo {
-  height: 64px;
-  width: 64px;
+  height: 4rem; /* Use relative units */
+  width: 4rem;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 1024px) {
+  nav {
+    padding: 1rem 4vw; /* Adjust padding */
+  }
+
+  .nav-links {
+    width: 60%; /* Increase width percentage for better spacing */
+  }
+
+  .logo {
+    height: 3.5rem; /* Adjust logo size */
+    width: 3.5rem;
+  }
+}
+
+@media (max-width: 820px) {
+  .nav-links {
+    width: 70%; /* Further adjust width */
+  }
+
+  .nav-links a {
+    font-size: 0.8rem; /* Slightly reduce font size */
+  }
+}
+
+@media (max-width: 480px) {
+  nav {
+    flex-direction: column; /* Stack logo and links vertically */
+    padding: 1rem; /* Reduce padding */
+  }
+
+  .nav-links {
+    margin-top: 1rem; /* Add some space between logo and links */
+    width: 100%; /* Utilize full width for link spacing */
+  }
+
+  .logo {
+    height: 3rem; /* Further adjust logo size */
+    width: 3rem;
+    margin-bottom: 0.5rem; /* Add some space below the logo */
+  }
 }

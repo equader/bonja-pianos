@@ -1,33 +1,74 @@
 .footer {
-    padding: 80px 112px;
+    padding: 5vw; /* Adjust based on viewport width */
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: black
+    background-color: black;
 }
 
-.footer-menu{
+.footer-menu, .social-icons {
     display: flex;
     align-items: center;
 }
 
-.social-icons{
-    display: flex;
-    align-items: center;
+.social-icons {
     margin-left: auto;
 }
 
 .icon-size {
-    width: 20px;
-    height: 20px;
-    padding: 12px;
+    width: 1.25rem; /* Use rem for scalability */
+    height: 1.25rem;
+    padding: 0.75rem;
 }
 
 .footer p {
     text-align: center;
-    font-size: 12px;
+    font-size: 1rem; /* Adjust for scalability */
     font-weight: 600;
     color: gray;
-
 }
 
+/* Additional breakpoints for better responsiveness */
+@media (max-width: 1024px) {
+  .footer {
+    padding: 4vw;
+  }
+
+  .footer p {
+    font-size: 0.9rem;
+  }
+
+  .icon-size {
+    width: 1rem;
+    height: 1rem;
+    padding: 0.5rem;
+  }
+}
+
+@media (max-width: 820px) {
+  .footer {
+    padding: 3vw;
+  }
+
+  .footer-menu, .social-icons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-icons {
+    margin-top: 1rem; /* Add space between menu and icons */
+    margin-left: 0; /* Reset left margin */
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 2vw;
+  }
+
+  .icon-size {
+    width: 0.75rem;
+    height: 0.75rem;
+    padding: 0.5rem;
+  }
+}
