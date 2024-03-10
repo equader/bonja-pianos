@@ -28,6 +28,10 @@
     color: gray;
 }
 
+*, ::after, ::before {
+/*   box-sizing: border-box; */
+}
+
 /* Additional breakpoints for better responsiveness */
 @media (max-width: 1024px) {
   .footer {
@@ -60,6 +64,8 @@
     margin-left: 0; /* Reset left margin */
   }
 }
+
+
 
 @media (max-width: 480px) {
   .footer {

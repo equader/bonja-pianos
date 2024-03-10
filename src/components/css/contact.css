@@ -1,16 +1,37 @@
-.contactPanel{
-    padding: 80px 112px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 32px;
+.contactPanel {
+  max-width: 1200px; /* Ensuring the width matches other panels */
+  padding: 80px 112px; /* Reduced padding on mobile */
+  margin: auto; /* Centering the panel */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 32px;
+}
+
+.contactPanel h1, .contactPanel p {
+  text-align: center;
 }
 
 .formInput form {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  background-color: #F3F4F6;
+  padding: 32px;
+  border-radius: 6px;
+  justify-content: center;
+  width: auto;
+  flex: 1;
+}
+
+.firstandLastName {
+  display: flex; /* Stack inputs vertically on mobile */
+  gap: 20px;
   width: 100%;
+}
+
+.firstandLastName input {
+  flex-grow: 1;
 }
 
 .formInput input,
@@ -22,8 +43,7 @@
 }
 
 .formInput .inputRow {
-  display: flex;
-  gap: 20px;
+  flex-direction: column; 
 }
 
 .formInput .inputRow > div {
@@ -49,28 +69,64 @@
 }
 
 .formInput button {
-  background-color: #007bff;
+  background-color: #111827;
+  font-weight: bold;
   color: white;
   border: none;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  
 }
 
 .formInput button:hover {
-  background-color: #0056b3;
+  background-color: #333333;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); 
 }
 
-/* Responsive styles */
-@media (max-width: 820px) {
-  .formInput .inputRow {
-    flex-direction: column;
-  }
+.rowInputs input {
+  flex: 1; 
+}
 
-  .formInput .inputRow > div {
-    flex: none; /* Resets flex-grow to default */
-  }
+.formInput textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  height: 100px; 
+}
 
+
+@media (max-width: 768px) {
   .contactPanel {
-    padding: 20px;
+    padding: 40px;
+    align-items: stretch;
   }
+
+  .formInput form {
+    width: auto;
+    flex: 1;
+  }
+  
+
+  .firstandLastName,
+  .formInput .inputRow {
+    flex-direction: column; 
+    gap: 15px;
+    width: auto;
+  }
+
+  .firstandLastName input,
+  .formInput .inputRow > div {
+    width: 100%; 
+    box-sizing: border-box;
+  }
+
+  .rowInputs {
+    flex-direction: column; 
+  }
+
+  .rowInputs input {
+    width: 100%; 
+  }
+
 }

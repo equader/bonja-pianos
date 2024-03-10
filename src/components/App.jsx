@@ -6,6 +6,11 @@ import Clients from "./Clients";
 import ReviewPanel from "./ReviewPanel";
 import Services from "./Services";
 import ContactForm from "./ContactForm";
+import FAQPanel from "./FAQPanel";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap';
+import Accreditations from "./Accreditations";
+
 
 function App() {
   return (
@@ -16,6 +21,8 @@ function App() {
     <Services/>
 {/*     <ReviewPanel/> */}
     <ContactForm/>
+    <FAQPanel/>
+    <Accreditations/>
     <Footer/>
     </div>
 

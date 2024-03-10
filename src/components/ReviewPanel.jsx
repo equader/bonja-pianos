@@ -42,6 +42,8 @@ function ReviewPanel() {
   return (
     <div className="review-panel">
       <h1>What our customers say</h1>
+      <p>We are proud of our work and service to our customers and have retained an 
+    average 5 of 5 star rating on Google Reviews</p>
       <div className="review-row">
         <button onClick={previousReview} aria-label="Previous review">
           <img src={arrowLeft} alt="Previous review" />
