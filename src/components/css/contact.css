@@ -1,0 +1,132 @@
+.contactPanel {
+  max-width: 1200px; /* Ensuring the width matches other panels */
+  padding: 80px 112px; /* Reduced padding on mobile */
+  margin: auto; /* Centering the panel */
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 32px;
+}
+
+.contactPanel h1, .contactPanel p {
+  text-align: center;
+}
+
+.formInput form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #F3F4F6;
+  padding: 32px;
+  border-radius: 6px;
+  justify-content: center;
+  width: auto;
+  flex: 1;
+}
+
+.firstandLastName {
+  display: flex; /* Stack inputs vertically on mobile */
+  gap: 20px;
+  width: 100%;
+}
+
+.firstandLastName input {
+  flex-grow: 1;
+}
+
+.formInput input,
+.formInput button {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.formInput .inputRow {
+  flex-direction: column; 
+}
+
+.formInput .inputRow > div {
+  flex: 1;
+}
+
+.formInput fieldset {
+  border: none;
+  padding: 0;
+}
+
+.formInput fieldset legend {
+  display: none;
+}
+
+.formInput label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.formInput input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.formInput button {
+  background-color: #111827;
+  font-weight: bold;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  
+}
+
+.formInput button:hover {
+  background-color: #333333;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); 
+}
+
+.rowInputs input {
+  flex: 1; 
+}
+
+.formInput textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  height: 100px; 
+}
+
+
+@media (max-width: 768px) {
+  .contactPanel {
+    padding: 40px;
+    align-items: stretch;
+  }
+
+  .formInput form {
+    width: auto;
+    flex: 1;
+  }
+  
+
+  .firstandLastName,
+  .formInput .inputRow {
+    flex-direction: column; 
+    gap: 15px;
+    width: auto;
+  }
+
+  .firstandLastName input,
+  .formInput .inputRow > div {
+    width: 100%; 
+    box-sizing: border-box;
+  }
+
+  .rowInputs {
+    flex-direction: column; 
+  }
+
+  .rowInputs input {
+    width: 100%; 
+  }
+
+}

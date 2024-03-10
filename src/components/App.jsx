@@ -5,6 +5,12 @@ import Hero from "./Hero"
 import Clients from "./Clients";
 import ReviewPanel from "./ReviewPanel";
 import Services from "./Services";
+import ContactForm from "./ContactForm";
+import FAQPanel from "./FAQPanel";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap';
+import Accreditations from "./Accreditations";
+
 
 function App() {
   return (
@@ -13,7 +19,10 @@ function App() {
     <Hero/>
     <Clients/>
     <Services/>
-    <ReviewPanel/>
+{/*     <ReviewPanel/> */}
+    <ContactForm/>
+    <FAQPanel/>
+    <Accreditations/>
     <Footer/>
     </div>
 

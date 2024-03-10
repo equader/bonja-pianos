@@ -1,14 +1,11 @@
 .review-panel{
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    gap: 32 px;
     padding: 80px 112px;
-}
-
-.review-panel h1 {
     text-align: center;
-
 }
+
 
 .review-row {
     display: flex;

@@ -6,3 +6,11 @@ body, html {
 body {
     font-family:"Inter"
 }
+
+h1 {
+    font-family: 'Inria Serif', serif;
+    font-style: italic;
+    font-style: bold;
+  }
+
+  
