@@ -25,9 +25,9 @@
 }
 
 .manPiano {
-    max-width: 590px;
-    max-height: 425px;
-    border-radius: 10px; /* Optional: if you want rounded corners */
+    width: 50%;
+    height: 50%;
+    border-radius: 10px; 
 }
 
 
@@ -54,6 +54,7 @@
     .HeroContainer {
         flex-direction: column;
         padding: 40px;
+        gap: 32px;
     }
 
     .HeroBlurb {
@@ -71,8 +72,9 @@
 
     .HeroHeader p {
         font-size: 16px; /* Smaller font size for mobile */
-        text-align: center; /* Center text for mobile */
+        text-align: justify;
     }
+
 
     .manPiano {
         width: 100%; /* Takes full width on smaller screens */

@@ -1,20 +1,17 @@
+import React from "react";
+import './css/services.css'; 
+
+
 function ServiceCard({ title, text, icon }) {
-  const cardStyle = {
-      backgroundImage: `url(${icon})`,
-      backgroundSize: 'cover',
-      backgroundPosition: 'center',
-      backgroundRepeat: 'no-repeat',
-  };
-
-  return (
-      <div className="service-card" style={cardStyle}>
-          <div className="service-card-content">
-              <h2>{title}</h2>
-              <p>{text}</p>
-          </div>
-      </div>
-  );
+    return (
+        <div className="card" style={{ width: '18rem' }}>
+            <img src={icon} className="card-img-top" alt={title} />
+            <div className="card-body">
+                <h5 className="card-title">{title}</h5>
+                <p className="card-text">{text}</p>
+            </div>
+        </div>
+    );
 }
-
 
 export default ServiceCard;

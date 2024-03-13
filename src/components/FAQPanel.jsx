@@ -4,7 +4,7 @@ import FAQ from "./FAQ";
 
 function FAQPanel() {
     return (
-        <div className="faq-panel">
+        <div id="faq-section" className="faq-panel">
             <h1>Frequently Asked Questions</h1>
             <FAQ/>
         </div>

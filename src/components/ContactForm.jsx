@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import './css/contact.css';
-import Button from "./Button";
+import PhoneInput from 'react-phone-number-input';
+import 'react-phone-number-input/style.css'; 
+
 
 function ContactForm () {
     const [formData, setFormData] = useState({
@@ -16,6 +18,10 @@ function ContactForm () {
     const handleInputChange = (event) => { 
         const { name, value } = event.target;
         setFormData({ ...formData, [name]: value });
+    };
+
+    const handlePhoneChange = (phone) => {
+        setFormData({ ...formData, phoneNumber: phone });
     };
 
 
@@ -34,9 +40,9 @@ function ContactForm () {
     };
 
     return (
-        <div className="contactPanel">
+        <div id="contact-section" className="contactPanel">
             <h1>Get in touch</h1>
-            <p>Like what you've seen? Get in touch by putting your contact details and we'll be sure to get back to you.</p>
+            <p>Like what you've seen? Get in touch by calling us on +61 450 284 115 or by putting your contact details below and we'll be sure to get back to you to assess how we can best help you and your piano.</p>
             <div className="formInput">
                 <form onSubmit={handleSubmit}>
                     <div className="firstandLastName">
@@ -64,12 +70,12 @@ function ContactForm () {
                         value={formData.email}
                         onChange={handleInputChange}
                     />
-                    <input
-                        type="tel"
-                        name="phoneNumber"
-                        placeholder="+61 xxx xxx xxx"
+                    <PhoneInput
+                        international
+                        defaultCountry="AU"
                         value={formData.phoneNumber}
-                        onChange={handleInputChange}
+                        onChange={handlePhoneChange}
+                        placeholder="Enter phone number"
                     />
                     <input
                         type="text"
