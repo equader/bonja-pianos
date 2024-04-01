@@ -12,6 +12,8 @@ import Accreditations from "./Accreditations";
 import About from "./About";
 import Reviews from "./Reviews";
 import ElfsightWidget from "./Elfsightwidget";
+import Button from "./Button"
+
 
 
 
@@ -26,9 +28,7 @@ function App() {
     <ContactForm/>
     <ElfsightWidget/>
     <FAQPanel/>
-{/*     <Reviews/> */}
     <Accreditations/>
-
     <Footer/>
     </div>
 

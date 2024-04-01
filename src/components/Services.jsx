@@ -16,13 +16,13 @@ function Services() {
         {
             id: 2,
             title: 'Piano Servicing',
-            text: 'Servicing your piano to concert level standards, better touch and control and quality voicing for a super piano playing experience. Prices start at $125',
+            text: 'Servicing your piano to concert level standards for better touch, control and quality for a superior piano playing experience. Prices start at $250',
             icon: servicingIcon,
         },
         {
             id: 3,
             title: 'Detailed Cleaning',
-            text: 'Cleaning to get your piano to not just sound beautiful but also look the part too. Prices start at $125.',
+            text: 'Cleaning to get your piano to not just sound beautiful but also look the part. Prices start at $250.',
             icon: cleaningIcon,
         }
     ];
