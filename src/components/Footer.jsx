@@ -5,7 +5,6 @@ import Menu from "./Menu";
 import { BsFacebook, BsTwitter, BsInstagram, BsYoutube } from 'react-icons/bs';
 
 function Footer() {
-    // Example array of social icons, replace with your actual data
     const footerIcons = [
         { id: 1, href: 'https://facebook.com', icon: <BsFacebook />, text: 'Facebook' },
         { id: 2, href: 'https://www.youtube.com/@roguepianoman5134', icon: <BsYoutube />, text: 'Youtube' },

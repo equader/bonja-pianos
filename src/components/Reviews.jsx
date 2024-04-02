@@ -55,7 +55,7 @@ function Reviews() {
     const groupedReviews = reviewsData.reduce((result, review, index) => {
         const chunkIndex = Math.floor(index / 3);
         if (!result[chunkIndex]) {
-            result[chunkIndex] = []; // start a new chunk
+            result[chunkIndex] = []; 
         }
         result[chunkIndex].push(review);
         return result;

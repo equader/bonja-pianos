@@ -12,117 +12,43 @@
   text-align: center;
 }
 
-.formInput form {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-  background-color: #F3F4F6;
-  padding: 32px;
-  border-radius: 6px;
-  justify-content: center;
-  width: auto;
-  flex: 1;
-}
-
-
-
-.firstandLastName {
-  display: flex; 
-  gap: 20px;
-  width: 100%;
-}
-
-.firstandLastName input {
-  flex-grow: 1;
-}
-
-.formInput input,
-.formInput button {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 1rem;
-}
-
-.formInput fieldset {
-  border: none;
-  padding: 0;
-}
-
-.formInput fieldset legend {
-  display: none;
-}
-
-.formInput label {
-  display: block;
-  margin-bottom: 5px;
-}
-
-.formInput input[type="checkbox"] {
-  margin-right: 10px;
-}
-
-.formInput button {
+.submit-button {
   background-color: #111827;
-  color: white;
-  font-weight: bold;
-  border: none;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
+  color: #FFFFFF;
+  border: none; 
+  border-radius: 6px; 
+  padding: 10px 20px ; 
+  font-size: 14px; 
+  font-weight: bold; 
+  cursor: pointer; 
+  outline: none; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  transition: background-color 0.3s, box-shadow 0.3s; 
 }
 
-
-.formInput button.button-success {
-  background-color: green; 
-  color: white;
+.submit-button:hover {
+  background-color: #333333; 
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); 
 }
 
-.formInput button:not(.button-success):hover {
-  background-color: #333333;
-  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+.submit-button:disabled {
+  background-color: #333; 
+  cursor: not-allowed; 
 }
 
-.formInput textarea {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 1rem;
-  height: 100px; 
+.contactPanel .submit-button.btn-success {
+  background-color: #28a745; 
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; 
 }
 
 @media (max-width: 820px) {
   .contactPanel {
     padding: 40px;
     align-items: stretch;
-  }
-
-  .contactPanel p {
-    text-align: justify;
-  }
-
-  .formInput form {
-    width: auto;
-    flex: 1;
-  }
-
-  .firstandLastName,
-  .formInput .inputRow {
-    flex-direction: column; 
-    gap: 15px;
-    width: auto;
-  }
-
-  .firstandLastName input,
-  .formInput .inputRow > div {
-    width: 100%; 
-    box-sizing: border-box;
-  }
-
-  .rowInputs {
-    flex-direction: column; 
-  }
-
-  .rowInputs input {
-    width: 100%; 
   }
 }

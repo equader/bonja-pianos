@@ -3,7 +3,6 @@ import './css/reviews.css';
 
 const ElfsightWidget = () => {
   useEffect(() => {
-    // Check if the script is already added
     const existingScript = document.getElementById('elfsight-script');
     
     if (!existingScript) {

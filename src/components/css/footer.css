@@ -1,5 +1,5 @@
 .footer {
-    padding: 5vw; /* Adjust based on viewport width */
+    padding: 5vw; 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -61,8 +61,8 @@
   }
 
   .social-icons {
-    margin-top: 1rem; /* Add space between menu and icons */
-    margin-left: 0; /* Reset left margin */
+    margin-top: 1rem; 
+    margin-left: 0;
     align-items: center;
   }
 }
