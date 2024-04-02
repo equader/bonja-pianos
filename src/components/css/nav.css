@@ -1,4 +1,4 @@
-.nav {
+nav {
   padding: 1rem 7vw; 
   display: flex;
   align-items: center;
@@ -28,7 +28,7 @@
 
 
 @media (max-width: 1024px) {
-  .nav {
+  nav {
     padding: 1rem 4vw;
   }
 
@@ -53,7 +53,7 @@
 }
 
 @media (max-width: 480px) {
-  .nav {
+  nav {
     flex-direction: column; 
     padding: 1rem;
   }

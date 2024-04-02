@@ -6,10 +6,10 @@ import './css/nav.css';
 
 function Nav() {
   return (
-    <div className='nav'>
+    <nav>
         <img loading="lazy" src={logo} alt="bonja-piano-logo" className="logo" />
         <Menu/>
-    </div>
+    </nav>
   );
 }
 
