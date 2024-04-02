@@ -7,10 +7,10 @@ import logo from './logos/logo.svg';
 
 function Nav() {
   return (
-    <nav>
+    <div className='nav'>
         <img loading="lazy" src={logo} alt="bonja-piano-logo" className="logo" />
         <Menu/>
-    </nav>
+    </div>
   );
 }
 
