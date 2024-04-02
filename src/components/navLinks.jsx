@@ -1,4 +1,3 @@
-
   const navLinks = [
     { id: 'home', text: 'Home', href: '#home-section' },
     { id: 'about', text: 'About', href: '#about-section' },
