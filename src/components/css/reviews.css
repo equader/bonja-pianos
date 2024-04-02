@@ -1,55 +1,39 @@
-.review-panel{
+.reviews {
+    max-width: 1200px; 
+    padding: 80px 112px; 
+    margin: 0 auto; 
     display: flex;
     flex-direction: column;
-    gap: 32 px;
-    padding: 80px 112px;
-    text-align: center;
-}
-
-
-.review-row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 32px;
+    text-align: center;
+    align-items: center
 }
 
-.review-row button  {
-    background-color: #F3F4F6;
-    border: none;
-    cursor: pointer;
-    height: 48px;  
-    width: 48px;
-    border-radius: 50%;
+.d-flex {
     display: flex;
-    align-items: center;
     justify-content: center;
-  }
-  
+    gap: 15px; 
+}
+
 .card {
-    padding: 32px;
-    gap: 32px;
-    height: 240px;
-    width: 384px;
-    display: flex;
-    flex-direction: column;
-    transition: transform 0.5s ease;
-    background-color: #F3F4F6;
-    border-radius: 6px;
+    flex: 0 0 32%; 
+    margin-bottom: 20px; 
+
 }
 
-.card img{
-    margin-left: auto;
-  margin-right: auto;
-    width: 136px;
-    height: 24px;
-    
+.carousel-indicators {
+    position: relative;
+    margin-top: 32px;
 }
 
-.card p {
-    justify-content: center;
-    text-align: center;
+.carousel-indicators li {
+    background-color: #000; 
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 5px;
 }
 
-
-
+.carousel-indicators .active {
+    background-color: #007bff;
+}

@@ -2,7 +2,7 @@
     background-color: #111827;
     color: #FFFFFF;
     border: none; 
-    border-radius: 6px; /* Rounded corners */
+    border-radius: 6px; 
     padding: 10px 20px ; 
     font-size: 14px; 
     font-weight: bold; 
@@ -13,12 +13,12 @@
   }
   
   .customButton:hover {
-    background-color: #333333; /* Darker background on hover */
-    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Larger shadow on hover */
+    background-color: #333333; 
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); 
   }
   
   .customButton:active {
-    background-color: #666666; /* Even darker background on active */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Smaller shadow on active */
+    background-color: #666666; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
   }
   
