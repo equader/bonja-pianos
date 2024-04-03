@@ -1,5 +1,5 @@
 .nav {
-  padding: 1rem 7vw; 
+  padding: 1rem 7vw !important; 
   display: flex;
   align-items: center;
   background-color: black;

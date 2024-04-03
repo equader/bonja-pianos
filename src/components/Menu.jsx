@@ -1,8 +1,6 @@
 import React from "react";
 import navLinks from './navLinks';
-import './css/footer.css';
-
-
+import './css/nav.css';
 
 function Menu(){
     return(

@@ -17,11 +17,10 @@ import Button from "./Button"
 
 
 
-
 function App() {
   return (
     <div>
-    <Nav/> 
+    <Nav/>
     <Hero/>
     <About/>
     <Clients/>
