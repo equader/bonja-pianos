@@ -1,5 +1,4 @@
 import React from 'react';
-import './css/nav.css';
 import Menu from './Menu'
 import logo from './logos/logo.svg';
 
