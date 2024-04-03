@@ -1,6 +1,5 @@
 import React from "react";
 import logo from './logos/logo.svg';
-import './css/footer.css';
 import Menu from "./Menu";
 import { BsFacebook, BsTwitter, BsInstagram, BsYoutube } from 'react-icons/bs';
 
