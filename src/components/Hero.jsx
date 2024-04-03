@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import './css/hero.css';
 import Button from './Button';
 
 import heroImg0 from './images/AIPIC.png'

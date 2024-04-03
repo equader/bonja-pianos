@@ -10,7 +10,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap';
 import Accreditations from "./Accreditations";
 import About from "./About";
-import Reviews from "./Reviews";
 import ElfsightWidget from "./Elfsightwidget";
 import Button from "./Button"
 

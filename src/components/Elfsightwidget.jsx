@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import './css/reviews.css';
+
 
 const ElfsightWidget = () => {
   useEffect(() => {

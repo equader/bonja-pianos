@@ -1,5 +1,4 @@
 import React from "react";
-import './css/clients.css';
 import usydlogo from './logos/clientlogos/usyd-logo.svg';
 import acologo from './logos/clientlogos/aco-logo.svg';
 import kambalalogo from './logos/clientlogos/kambala-logo.svg';

@@ -1,5 +1,4 @@
 import React from "react";
-import './css/services.css';
 import ServiceCard from './ServiceCard';
 import tuningIcon from './images/tuning-service.png'; 
 import servicingIcon from './images/servicing-service.png';

@@ -1,5 +1,4 @@
 import React from "react";
-import './css/faq.css';
 import FAQ from "./FAQ";
 
 function FAQPanel() {

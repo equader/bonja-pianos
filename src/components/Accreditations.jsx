@@ -1,5 +1,4 @@
 import React from "react";
-import "./css/accreditations.css"
 import "./logos/pianolifesaver.svg"
 import lifesaver from './logos/pianolifesaver.svg';
 import yamaha from './logos/yamaha.svg'

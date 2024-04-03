@@ -1,5 +1,4 @@
 import React from "react";
-import './css/services.css'; 
 import Button from './Button';
 
 
