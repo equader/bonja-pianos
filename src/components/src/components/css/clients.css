@@ -1,0 +1,38 @@
+.clientsPanel{
+    padding: 80px 112px;
+    max-width: 1200px;
+    margin: auto;
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+    gap: 24px; 
+    flex-wrap: wrap; 
+  }
+  
+.company-logo {
+    height: 61px;
+    width: 175px;
+  }
+
+.clientsPanel p {
+    text-align: center;
+}
+
+@media (max-width: 820px) {
+  .clientsPanel {
+      padding: 40px;
+  }
+
+  .logos {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+}
