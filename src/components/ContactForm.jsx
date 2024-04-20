@@ -79,7 +79,7 @@ function ContactForm() {
 
             web3FormData.append(
                 "apikey",
-                "process.env.REACT_APP_WEB3FORMS_API_KEY"
+                process.env.REACT_APP_WEB3FORMS_API_KEY
             );
             try {
                 const response = await fetch(

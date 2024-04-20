@@ -5,9 +5,9 @@ import { BsFacebook, BsTwitter, BsInstagram, BsYoutube } from 'react-icons/bs';
 
 function Footer() {
     const footerIcons = [
-        { id: 1, href: 'https://facebook.com', icon: <BsFacebook />, text: 'Facebook' },
+        { id: 1, href: 'https://www.facebook.com/share/xeVAYXa661CJFaAP/?mibextid=qi2Omg', icon: <BsFacebook />, text: 'Facebook' },
         { id: 2, href: 'https://www.youtube.com/@roguepianoman5134', icon: <BsYoutube />, text: 'Youtube' },
-        { id: 3, href: 'https://instagram.com', icon: <BsInstagram />, text: 'Instagram' },
+        { id: 3, href: 'https://www.instagram.com/bonjapianos', icon: <BsInstagram />, text: 'Instagram' },
     ];
 
     return (
