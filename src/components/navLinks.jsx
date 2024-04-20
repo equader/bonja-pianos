@@ -7,4 +7,4 @@
   ];
 
 
-  export default NavLinks
+  export default NavLinks;
