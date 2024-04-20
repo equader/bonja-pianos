@@ -58,7 +58,7 @@ function ContactForm() {
     const handleSubmit = async (e) => {
         e.preventDefault();
         setSubmitted(true);
-
+    
         if (validateForm()) {
             const web3FormData = new FormData();
             web3FormData.append(
@@ -69,18 +69,20 @@ function ContactForm() {
             web3FormData.append("phone", formData.phoneNumber);
             web3FormData.append("location", formData.location);
             web3FormData.append("message", formData.problemDescription);
-
+    
             const servicesArray = Object.entries(formData.services)
                 .filter(([_, value]) => value)
                 .map(([key, _]) => key);
-            servicesArray.forEach((service) => {
-                web3FormData.append("services[]", service);
-            });
-
+            const servicesString = servicesArray.join(", ");
+            web3FormData.append("services", servicesString);
+    
             web3FormData.append(
                 "apikey",
                 process.env.REACT_APP_WEB3FORMS_API_KEY
             );
+
+            
+    
             try {
                 const response = await fetch(
                     "https://api.web3forms.com/submit",
@@ -89,7 +91,7 @@ function ContactForm() {
                         body: web3FormData,
                     }
                 );
-
+    
                 const result = await response.json();
                 if (result.success) {
                     setFormData({
