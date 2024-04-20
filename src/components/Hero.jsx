@@ -6,26 +6,26 @@ import heroImg1 from './images/pianotuning.png';
 import heroImg2 from './images/heroimage2.png';
 import heroImg3 from './images/heroimage3.png';
 import heroImg4 from './images/heroimage4.png';
+import piano from './images/pianobeingtuned.webp'
 
 
 
 function Hero() {
-/*     const [imgSrc, setImgSrc] = useState(heroImg0);
+    const [currentImage, setCurrentImage] = useState(0);
     const [fadeClass, setFadeClass] = useState('fade-in');
+    const images = [piano, heroImg2, heroImg3, heroImg4];
 
     useEffect(() => {
-        const images = [heroImg1, heroImg2, heroImg3, heroImg4];
-        let currentImageIndex = 0;
+        setFadeClass('fade-in');
         const interval = setInterval(() => {
             setFadeClass('fade-out');
             setTimeout(() => {
-                currentImageIndex = (currentImageIndex + 1) % images.length;
-                setImgSrc(images[currentImageIndex]);
+                setCurrentImage((prevImage => (prevImage + 1) % images.length));
                 setFadeClass('fade-in');
-            }, 500); // This matches the transition time
+            }, 500);  
         }, 5000);
         return () => clearInterval(interval);
-    }, []); */
+    }, []);
 
     return (
         <div id="home-section" className="HeroContainer">
@@ -36,7 +36,7 @@ function Hero() {
                 </div>
                 <Button text="Request a quote" onClick={() => window.location.hash = 'contact-section'} />
             </div>
-            <img loading="lazy" src={heroImg1} alt="Man tuning piano" className={`manPiano`} />
+            <div className={`imageContainer ${fadeClass}`} style={{ backgroundImage: `url(${images[currentImage]})` }}></div>
         </div>
     );
 }
