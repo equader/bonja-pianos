@@ -1,11 +1,11 @@
 import React from "react";
-import navLinks from './NavLinks';
+import NavLinks from './NavLinks';
 
 
 function Menu(){
     return(
         <div className="nav-links" >
-          {navLinks.map(link => (
+          {NavLinks.map(link => (
             <a style={{ textDecoration: 'none' }} key={link.id} href={link.href}>{link.text}</a>
           ))}
         </div>
