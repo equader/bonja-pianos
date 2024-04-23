@@ -80,7 +80,6 @@ function ContactForm() {
                 "apikey",
                 process.env.REACT_APP_WEB3FORMS_API_KEY
             );
-
             
     
             try {
