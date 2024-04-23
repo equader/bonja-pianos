@@ -160,7 +160,7 @@ h1 {
 .about img {
 max-width: 25%;
 max-height: 25%;
-    border-radius: 10px; 
+border-radius: 10px; 
 }
 
 .aboutContent {
@@ -187,7 +187,7 @@ max-height: 25%;
   gap: 32px;
 }
 
-.contactPanel h1, .contactPanel p {
+.contactPanel h1{
   text-align: center;
 }
 
@@ -323,6 +323,10 @@ font-weight: bold;
   gap: 32px;
 }
 
+.servicesPanel p{
+  text-align: justify;
+}
+
 .services-row {
   display: flex;
   gap: 32px;
@@ -362,6 +366,10 @@ font-weight: bold;
 
 .button-container {
   margin-top: auto; 
+}
+
+.contactPanel p{
+  text-align: justify;
 }
 
 .reviews {
@@ -418,6 +426,23 @@ font-weight: bold;
     .logo {
       height: 3.5rem;
       width: 3.5rem;
+    }
+
+    .services-row{
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .card{
+      flex: 1; /* Or you could use width: 33.333%; for three cards */
+      max-width: calc(100% / 3 - 10px); /* Adjust the 10px to account for any margin or padding */
+      box-sizing: border-box; /* Include padding and borders in the element's total width and height */
+    }
+  
+
+    .about img {
+      max-height: 50%;
+      max-width: 50%;
     }
 
     .footer {
