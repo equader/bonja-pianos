@@ -16,6 +16,10 @@ h1 {
     font-style: bold;
   }
 
+p {
+  font-size: 16px;
+}
+
   .HeroContainer {
     padding: 80px 112px;
     max-width: 1200px;
