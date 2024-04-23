@@ -428,16 +428,8 @@ font-weight: bold;
       width: 3.5rem;
     }
 
-    .services-row{
-      display: flex;
-      flex-wrap: wrap;
-    }
+    
 
-    .card{
-      flex: 1; /* Or you could use width: 33.333%; for three cards */
-      max-width: calc(100% / 3 - 10px); /* Adjust the 10px to account for any margin or padding */
-      box-sizing: border-box; /* Include padding and borders in the element's total width and height */
-    }
   
 
     .about img {
@@ -583,7 +575,7 @@ font-weight: bold;
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     .nav {
       flex-direction: column; 
       padding: 1rem;
@@ -599,6 +591,10 @@ font-weight: bold;
       width: 3rem;
       margin-bottom: 0.5rem; 
     }
+
+
+
+
 
     .footer {
         padding: 2vw;
