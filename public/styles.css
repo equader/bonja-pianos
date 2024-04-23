@@ -433,11 +433,6 @@ font-weight: bold;
       flex-wrap: wrap;
     }
 
-    .card{
-      flex: 1; /* Or you could use width: 33.333%; for three cards */
-      max-width: calc(100% / 3 - 10px); /* Adjust the 10px to account for any margin or padding */
-      box-sizing: border-box; /* Include padding and borders in the element's total width and height */
-    }
   
 
     .about img {
