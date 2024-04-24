@@ -3,7 +3,7 @@ import React from 'react';
 const faqData = [
     {
         question: "What locations do you service?",
-        answer: "We are based in Sydney and service the anywhere from the North Shore, Greater Western Sydney and anything in between. We also service the Canberra region!"
+        answer: "We are based in Sydney and service anywhere from the North Shore, Western Sydney and the Canberra region!"
     },
     {
         question: "How much notice do you need to book a tuning?",
