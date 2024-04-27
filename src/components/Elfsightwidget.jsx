@@ -24,7 +24,7 @@ const ElfsightWidget = () => {
   return (
     <div className='reviews'>
         <h1>Hear from our customers</h1>
-        <div className="elfsight-app-cd147c3c-ff50-4e87-933a-3107588ddb8b" data-elfsight-app-lazy></div>
+        <div class="elfsight-app-65d58f4e-5e66-4b16-a046-2338c8484007" data-elfsight-app-lazy></div> 
     </div>
 
   );
