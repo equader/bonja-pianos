@@ -12,6 +12,7 @@ import Accreditations from "./Accreditations";
 import About from "./About";
 import ElfsightWidget from "./Elfsightwidget";
 import Button from "./Button"
+import Blogs from "./Blogs";
 import { Analytics } from "@vercel/analytics/react"
 
 
@@ -29,6 +30,7 @@ function App() {
     <ContactForm/>
     <ElfsightWidget/>
     <FAQPanel/>
+    <Blogs/>
     <Accreditations/>
     <Footer/>
     </div>
