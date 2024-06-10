@@ -28,7 +28,8 @@ function Blogs() {
 
     return (
         <div className="blog-container">
-            <h1>Piano care articles</h1>
+            <h1>Interested in more ways to protect your piano?</h1>
+            <p>See below for articles to learn how to keep your piano in pristine condition with expert advice and solutions.</p>
             <div className="blogs-row">
                 {blogs.map(blog => (
                     <a key={blog.id} href={blog.link} target="_blank" rel="noopener noreferrer" className="card-link">
