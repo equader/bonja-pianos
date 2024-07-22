@@ -13,6 +13,7 @@ import About from "./About";
 import ElfsightWidget from "./Elfsightwidget";
 import Button from "./Button"
 import Blogs from "./Blogs";
+import Alert from "./Alert";
 import { Analytics } from "@vercel/analytics/react"
 
 

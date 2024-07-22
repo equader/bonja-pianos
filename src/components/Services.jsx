@@ -9,21 +9,21 @@ function Services() {
         {
             id: 1,
             title: 'Piano Tuning',
-            price: '$250',
+            price: '$250 (excl. GST)',
             text: 'Tuning to concert pitch (440hz) to ensure your piano is stable across all registers. Piano will be played at the end of the tuning session to make sure it all sounds perfect.',
             icon: tuningIcon,
         },
         {
             id: 2,
             title: 'Piano Servicing',
-            price: '$125',
+            price: '$125 (excl. GST)',
             text: 'Servicing your piano to concert level standards for better touch, control and quality for a superior piano playing experience.',
             icon: servicingIcon,
         },
         {
             id: 3,
             title: 'Detailed Cleaning',
-            price: '$125',
+            price: '$125 (excl. GST)',
             text: 'Cleaning to get your piano to not just sound beautiful but also look the part.',
             icon: cleaningIcon,
         }
