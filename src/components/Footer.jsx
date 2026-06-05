@@ -23,7 +23,7 @@ function Footer() {
                     ))}
                 </div>
             </div>
-            <p> © 2024 Bonja Pianos. All Rights Reserved. | ABN 65 831 469 318</p>
+            <p> © {new Date().getFullYear()} Bonja Pianos. All Rights Reserved. | ABN 65 831 469 318</p>
             <p style={{textDecoration: 'none', fontSize: 'small' }}>Designed and built by <a href="https://equader.github.io/"style={{ color: 'inherit', textDecoration: 'none', fontSize: 'small' }}>Eshaan Mahimkar</a></p>
         </div>
     );
