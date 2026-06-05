@@ -31,8 +31,8 @@ function Hero() {
         <div id="home-section" className="HeroContainer">
             <div className="HeroBlurb">
                 <div className="HeroHeader">
-                    <h1>Piano servicing you can trust</h1>
-                    <p>Bonja Pianos proudly serves the Sydney and Canberra regions, dedicating meticulous attention to the restoration and care of pianos. We are committed to enhancing the innate beauty and sound of each instrument.</p>
+                    <h1>Piano Tuning & Servicing in Sydney, NSW & ACT</h1>
+                    <p>Bonja Pianos proudly serves Sydney, NSW and the ACT — including the North Shore, Western Sydney and Canberra — providing expert piano tuning, servicing, repair and cleaning you can trust.</p>
                     <p>Join us as we continue our passionate journey, sharing our love for pianos with you.</p>
                 </div>
                 <Button text="Request a quote" onClick={() => window.location.hash = 'contact-section'} />
